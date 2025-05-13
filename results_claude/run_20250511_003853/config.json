@@ -1,0 +1,11 @@
+{
+  "provider": "anthropic",
+  "model_name": "claude-3-5-sonnet-20240620",
+  "dataset": "puzzles.json",
+  "subjects": "all",
+  "timestamp": "2025-05-11T00:38:53.992110",
+  "num_examples": 1,
+  "delay_between_requests": 2.0,
+  "batch_size": 5,
+  "batch_delay": 60
+}

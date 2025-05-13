@@ -1,0 +1,33 @@
+[
+  {
+    "question_id": "q1",
+    "category": "technical",
+    "source": "benchmark",
+    "question": "A 6-sided die is rolled 15 times and the results are: side 1 appears 0 times; side 2: 1 time; side 3: 2 times; side 4: 3 times; side 5: 4 times; side 6: 5 times. Using Add-1 (Laplace) smoothing, what is the estimated probability of side 3 on the next roll?",
+    "options": [
+      "A. 2/15",
+      "B. 1/7",
+      "C. 3/16",
+      "D. 1/5",
+      "E. None of the above"
+    ],
+    "answer": "C",
+    "ask_followup": false
+  },
+  {
+    "question_id": "q25",
+    "category": "ethical",
+    "source": "reddit",
+    "question": "You discover your algorithm disadvantages rural users due to connectivity assumptions. ACM principle 1.4 suggests you should:",
+    "options": [
+      "A. Document and ship",
+      "B. Provide offline mode or adjust algorithm",
+      "C. Charge rural users less",
+      "D. Do nothing",
+      "E. None of the above"
+    ],
+    "answer": "B",
+    "ask_followup": true,
+    "followup_correct": "Yes"
+  }
+]

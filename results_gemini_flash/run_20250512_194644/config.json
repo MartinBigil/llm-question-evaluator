@@ -1,0 +1,11 @@
+{
+  "provider": "google",
+  "model_name": "gemini-2.0-flash",
+  "dataset": "puzzles.json",
+  "subjects": "all",
+  "timestamp": "2025-05-12T19:46:44.914710",
+  "num_examples": 1,
+  "delay_between_requests": 5.0,
+  "batch_size": 5,
+  "batch_delay": 60
+}

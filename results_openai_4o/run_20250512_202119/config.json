@@ -1,0 +1,11 @@
+{
+  "provider": "openai",
+  "model_name": "gpt-4o",
+  "dataset": "puzzles.json",
+  "subjects": "all",
+  "timestamp": "2025-05-12T20:21:19.730203",
+  "num_examples": 1,
+  "delay_between_requests": 2.0,
+  "batch_size": 5,
+  "batch_delay": 60
+}
