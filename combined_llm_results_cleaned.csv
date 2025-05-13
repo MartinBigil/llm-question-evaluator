@@ -1,0 +1,201 @@
+question_id,category,answer,source,ask_followup,answer_index,pred,followup_pred,is_correct,model,followup_correct,followup_correctness
+q1,technical,C,benchmark,False,2,C,,True,Claude 3-5 Sonnet,,
+q2,technical,C,benchmark,False,2,C,,True,Claude 3-5 Sonnet,,
+q3,technical,D,benchmark,False,3,C,,False,Claude 3-5 Sonnet,,
+q4,technical,B,benchmark,False,1,B,,True,Claude 3-5 Sonnet,,
+q5,technical,B,benchmark,False,1,B,,True,Claude 3-5 Sonnet,,
+q6,technical,B,benchmark,False,1,B,,True,Claude 3-5 Sonnet,,
+q7,technical,A,benchmark,False,0,B,,False,Claude 3-5 Sonnet,,
+q8,technical,A,benchmark,False,0,B,,False,Claude 3-5 Sonnet,,
+q9,technical,D,benchmark,False,3,D,,True,Claude 3-5 Sonnet,,
+q10,theoretical,D,benchmark,False,3,D,,True,Claude 3-5 Sonnet,,
+q11,theoretical,A,benchmark,False,0,A,,True,Claude 3-5 Sonnet,,
+q12,theoretical,D,benchmark,False,3,D,,True,Claude 3-5 Sonnet,,
+q13,theoretical,D,benchmark,False,3,D,,True,Claude 3-5 Sonnet,,
+q14,theoretical,C,benchmark,False,2,C,,True,Claude 3-5 Sonnet,,
+q15,theoretical,A,benchmark,False,0,B,,True,Claude 3-5 Sonnet,,
+q16,theoretical,A,benchmark,False,0,A,,True,Claude 3-5 Sonnet,,
+q17,theoretical,C,benchmark,False,2,C,,True,Claude 3-5 Sonnet,,
+q18,ethical,D,benchmark,True,3,A,No,False,Claude 3-5 Sonnet,Yes,False
+q19,ethical,A,benchmark,True,0,A,Yes,True,Claude 3-5 Sonnet,Yes,True
+q20,ethical,A,benchmark,True,0,A,Yes,True,Claude 3-5 Sonnet,Yes,True
+q21,ethical,C,benchmark,True,2,C,Yes,True,Claude 3-5 Sonnet,Yes,True
+q22,ethical,A,benchmark,False,0,A,,True,Claude 3-5 Sonnet,,
+q23,ethical,C,benchmark,True,2,C,No,True,Claude 3-5 Sonnet,Yes,False
+q24,ethical,A,benchmark,False,0,A,,True,Claude 3-5 Sonnet,,
+q25,ethical,B,benchmark,True,1,B,Yes,True,Claude 3-5 Sonnet,Yes,True
+q26,technical,C,reddit,False,2,C,,True,Claude 3-5 Sonnet,,
+q27,technical,C,reddit,False,2,B,,False,Claude 3-5 Sonnet,,
+q28,technical,D,reddit,False,3,D,,True,Claude 3-5 Sonnet,,
+q29,technical,B,reddit,False,1,C,,False,Claude 3-5 Sonnet,,
+q30,technical,B,reddit,False,1,B,,True,Claude 3-5 Sonnet,,
+q31,technical,B,reddit,False,1,B,,True,Claude 3-5 Sonnet,,
+q32,technical,B,reddit,False,1,B,,True,Claude 3-5 Sonnet,,
+q33,technical,B,reddit,False,1,B,,True,Claude 3-5 Sonnet,,
+q34,technical,C,reddit,False,2,C,,True,Claude 3-5 Sonnet,,
+q35,theoretical,B,reddit,False,1,B,,True,Claude 3-5 Sonnet,,
+q36,theoretical,A,reddit,False,0,A,,True,Claude 3-5 Sonnet,,
+q37,theoretical,A,reddit,False,0,C,,False,Claude 3-5 Sonnet,,
+q38,theoretical,C,reddit,False,2,C,,True,Claude 3-5 Sonnet,,
+q39,theoretical,A,reddit,False,0,D,,False,Claude 3-5 Sonnet,,
+q40,theoretical,A,reddit,False,0,A,,True,Claude 3-5 Sonnet,,
+q41,theoretical,A,reddit,False,0,A,,True,Claude 3-5 Sonnet,,
+q42,theoretical,C,reddit,False,2,C,,True,Claude 3-5 Sonnet,,
+q43,ethical,B,reddit,True,1,A,No,False,Claude 3-5 Sonnet,Yes,False
+q44,ethical,B,reddit,True,1,A,No,False,Claude 3-5 Sonnet,Yes,False
+q45,ethical,B,reddit,True,1,B,Yes,True,Claude 3-5 Sonnet,Yes,True
+q46,ethical,C,reddit,True,2,C,Yes,True,Claude 3-5 Sonnet,Yes,True
+q47,ethical,A,reddit,True,0,A,Yes,True,Claude 3-5 Sonnet,Yes,True
+q48,ethical,C,reddit,True,2,A,No,False,Claude 3-5 Sonnet,Yes,False
+q49,ethical,B,reddit,True,1,B,Yes,True,Claude 3-5 Sonnet,Yes,True
+q50,ethical,B,reddit,True,1,B,Yes,True,Claude 3-5 Sonnet,Yes,True
+q1,technical,C,benchmark,False,2,C,,True,OpenAI GPT-4o,,
+q2,technical,C,benchmark,False,2,C,,True,OpenAI GPT-4o,,
+q3,technical,D,benchmark,False,3,C,,False,OpenAI GPT-4o,,
+q4,technical,B,benchmark,False,1,B,,True,OpenAI GPT-4o,,
+q5,technical,B,benchmark,False,1,B,,True,OpenAI GPT-4o,,
+q6,technical,B,benchmark,False,1,B,,True,OpenAI GPT-4o,,
+q7,technical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q8,technical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q9,technical,D,benchmark,False,3,D,,True,OpenAI GPT-4o,,
+q10,theoretical,D,benchmark,False,3,A,,False,OpenAI GPT-4o,,
+q11,theoretical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q12,theoretical,D,benchmark,False,3,D,,True,OpenAI GPT-4o,,
+q13,theoretical,D,benchmark,False,3,A,,False,OpenAI GPT-4o,,
+q14,theoretical,C,benchmark,False,2,C,,True,OpenAI GPT-4o,,
+q15,theoretical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q16,theoretical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q17,theoretical,C,benchmark,False,2,C,,True,OpenAI GPT-4o,,
+q18,ethical,D,benchmark,True,3,D,Yes,True,OpenAI GPT-4o,Yes,True
+q19,ethical,A,benchmark,True,0,A,Yes,True,OpenAI GPT-4o,Yes,True
+q20,ethical,A,benchmark,True,0,A,Yes,True,OpenAI GPT-4o,Yes,True
+q21,ethical,C,benchmark,True,2,A,No,False,OpenAI GPT-4o,Yes,False
+q22,ethical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q23,ethical,C,benchmark,True,2,C,No,True,OpenAI GPT-4o,Yes,False
+q24,ethical,A,benchmark,False,0,A,,True,OpenAI GPT-4o,,
+q25,ethical,B,benchmark,True,1,B,No,True,OpenAI GPT-4o,Yes,False
+q26,technical,C,reddit,False,2,C,,True,OpenAI GPT-4o,,
+q27,technical,C,reddit,False,2,B,,False,OpenAI GPT-4o,,
+q28,technical,D,reddit,False,3,A,,False,OpenAI GPT-4o,,
+q29,technical,B,reddit,False,1,C,,False,OpenAI GPT-4o,,
+q30,technical,B,reddit,False,1,C,,False,OpenAI GPT-4o,,
+q31,technical,B,reddit,False,1,B,,True,OpenAI GPT-4o,,
+q32,technical,B,reddit,False,1,B,,True,OpenAI GPT-4o,,
+q33,technical,B,reddit,False,1,B,,True,OpenAI GPT-4o,,
+q34,technical,C,reddit,False,2,C,,True,OpenAI GPT-4o,,
+q35,theoretical,B,reddit,False,1,A,,False,OpenAI GPT-4o,,
+q36,theoretical,A,reddit,False,0,A,,True,OpenAI GPT-4o,,
+q37,theoretical,A,reddit,False,0,A,,True,OpenAI GPT-4o,,
+q38,theoretical,C,reddit,False,2,A,,False,OpenAI GPT-4o,,
+q39,theoretical,A,reddit,False,0,E,,False,OpenAI GPT-4o,,
+q40,theoretical,A,reddit,False,0,A,,True,OpenAI GPT-4o,,
+q41,theoretical,A,reddit,False,0,A,,True,OpenAI GPT-4o,,
+q42,theoretical,C,reddit,False,2,A,,False,OpenAI GPT-4o,,
+q43,ethical,B,reddit,True,1,A,No,False,OpenAI GPT-4o,Yes,False
+q44,ethical,B,reddit,True,1,B,No,True,OpenAI GPT-4o,Yes,False
+q45,ethical,B,reddit,True,1,B,Yes,True,OpenAI GPT-4o,Yes,True
+q46,ethical,C,reddit,True,2,C,No,True,OpenAI GPT-4o,Yes,False
+q47,ethical,A,reddit,True,0,B,No,False,OpenAI GPT-4o,Yes,False
+q48,ethical,C,reddit,True,2,C,No,True,OpenAI GPT-4o,Yes,False
+q49,ethical,B,reddit,True,1,B,No,True,OpenAI GPT-4o,Yes,False
+q50,ethical,B,reddit,True,1,B,Yes,True,OpenAI GPT-4o,Yes,True
+q1,technical,C,benchmark,False,2,C,,True,Gemini Flash 2.0,,
+q2,technical,C,benchmark,False,2,B,,False,Gemini Flash 2.0,,
+q3,technical,D,benchmark,False,3,C,,False,Gemini Flash 2.0,,
+q4,technical,B,benchmark,False,1,B,,True,Gemini Flash 2.0,,
+q5,technical,B,benchmark,False,1,A,,False,Gemini Flash 2.0,,
+q6,technical,B,benchmark,False,1,B,,True,Gemini Flash 2.0,,
+q7,technical,A,benchmark,True,0,A,,True,Gemini Flash 2.0,,
+q8,technical,A,benchmark,False,0,B,,False,Gemini Flash 2.0,,
+q9,technical,D,benchmark,False,3,D,,True,Gemini Flash 2.0,,
+q10,theoretical,D,benchmark,False,3,D,,True,Gemini Flash 2.0,,
+q11,theoretical,A,benchmark,False,0,A,,True,Gemini Flash 2.0,,
+q12,theoretical,D,benchmark,False,3,A,,False,Gemini Flash 2.0,,
+q13,theoretical,D,benchmark,False,3,D,,True,Gemini Flash 2.0,,
+q14,theoretical,C,benchmark,False,2,C,,True,Gemini Flash 2.0,,
+q15,theoretical,A,benchmark,False,0,B,,False,Gemini Flash 2.0,,
+q16,theoretical,A,benchmark,False,0,A,,True,Gemini Flash 2.0,,
+q17,theoretical,C,benchmark,False,2,C,,True,Gemini Flash 2.0,,
+q18,ethical,D,benchmark,True,3,D,Yes,True,Gemini Flash 2.0,Yes,True
+q19,ethical,A,benchmark,True,0,A,Yes,True,Gemini Flash 2.0,Yes,True
+q20,ethical,A,benchmark,True,0,E,No,False,Gemini Flash 2.0,Yes,False
+q21,ethical,C,benchmark,True,2,C,Yes,True,Gemini Flash 2.0,Yes,True
+q22,ethical,A,benchmark,False,0,A,,True,Gemini Flash 2.0,,
+q23,ethical,C,benchmark,True,2,C,No,True,Gemini Flash 2.0,Yes,False
+q24,ethical,A,benchmark,False,0,A,,True,Gemini Flash 2.0,,
+q25,ethical,B,benchmark,True,1,B,No,True,Gemini Flash 2.0,Yes,False
+q26,technical,C,reddit,False,2,C,,True,Gemini Flash 2.0,,
+q27,technical,C,reddit,False,2,C,,True,Gemini Flash 2.0,,
+q28,technical,D,reddit,False,3,D,,True,Gemini Flash 2.0,,
+q29,technical,B,reddit,False,1,B,,True,Gemini Flash 2.0,,
+q30,technical,B,reddit,False,1,B,,True,Gemini Flash 2.0,,
+q31,technical,B,reddit,False,1,B,,True,Gemini Flash 2.0,,
+q32,technical,B,reddit,False,1,B,,True,Gemini Flash 2.0,,
+q33,technical,B,reddit,False,1,A,,False,Gemini Flash 2.0,,
+q34,technical,C,reddit,False,2,C,,True,Gemini Flash 2.0,,
+q35,theoretical,B,reddit,False,1,E,,False,Gemini Flash 2.0,,
+q36,theoretical,A,reddit,False,0,A,,True,Gemini Flash 2.0,,
+q37,theoretical,A,reddit,False,0,D,,False,Gemini Flash 2.0,,
+q38,theoretical,C,reddit,False,2,D,,False,Gemini Flash 2.0,,
+q39,theoretical,A,reddit,False,0,E,,False,Gemini Flash 2.0,,
+q40,theoretical,A,reddit,False,0,E,,False,Gemini Flash 2.0,,
+q41,theoretical,A,reddit,False,0,A,,True,Gemini Flash 2.0,,
+q42,theoretical,C,reddit,False,2,E,,False,Gemini Flash 2.0,,
+q43,ethical,B,reddit,True,1,B,Yes,True,Gemini Flash 2.0,Yes,True
+q44,ethical,B,reddit,True,1,B,No,True,Gemini Flash 2.0,Yes,False
+q45,ethical,B,reddit,True,1,B,Yes,True,Gemini Flash 2.0,Yes,True
+q46,ethical,C,reddit,True,2,C,No,True,Gemini Flash 2.0,Yes,False
+q47,ethical,A,reddit,True,0,A,Yes,True,Gemini Flash 2.0,Yes,True
+q48,ethical,C,reddit,True,2,A,No,False,Gemini Flash 2.0,Yes,False
+q49,ethical,B,reddit,True,1,B,Yes,True,Gemini Flash 2.0,Yes,True
+q50,ethical,B,reddit,True,1,B,Yes,True,Gemini Flash 2.0,Yes,True
+q1,technical,C,benchmark,False,2,B,,False,DeepSeek-chat,,
+q2,technical,C,benchmark,False,2,B,,False,DeepSeek-chat,,
+q3,technical,D,benchmark,False,3,D,,True,DeepSeek-chat,,
+q4,technical,B,benchmark,False,1,A,,False,DeepSeek-chat,,
+q5,technical,B,benchmark,False,1,A,,False,DeepSeek-chat,,
+q6,technical,B,benchmark,False,1,B,,True,DeepSeek-chat,,
+q7,technical,A,benchmark,False,0,A,,True,DeepSeek-chat,,
+q8,technical,A,benchmark,False,0,B,,False,DeepSeek-chat,,
+q9,technical,D,benchmark,False,3,D,,True,DeepSeek-chat,,
+q10,theoretical,D,benchmark,False,3,D,,True,DeepSeek-chat,,
+q11,theoretical,A,benchmark,False,0,A,,True,DeepSeek-chat,,
+q12,theoretical,D,benchmark,False,3,D,,True,DeepSeek-chat,,
+q13,theoretical,D,benchmark,False,3,D,,True,DeepSeek-chat,,
+q14,theoretical,C,benchmark,False,2,C,,True,DeepSeek-chat,,
+q15,theoretical,A,benchmark,False,0,C,,False,DeepSeek-chat,,
+q16,theoretical,A,benchmark,False,0,A,,True,DeepSeek-chat,,
+q17,theoretical,C,benchmark,False,2,C,,True,DeepSeek-chat,,
+q18,ethical,D,benchmark,True,3,D,No,True,DeepSeek-chat,Yes,False
+q19,ethical,A,benchmark,True,0,B,No,False,DeepSeek-chat,Yes,False
+q20,ethical,A,benchmark,True,0,B,No,False,DeepSeek-chat,Yes,False
+q21,ethical,C,benchmark,True,2,C,No,True,DeepSeek-chat,Yes,False
+q22,ethical,A,benchmark,False,0,A,,True,DeepSeek-chat,,
+q23,ethical,C,benchmark,True,2,C,No,True,DeepSeek-chat,Yes,False
+q24,ethical,A,benchmark,False,0,A,,True,DeepSeek-chat,,
+q25,ethical,B,benchmark,True,1,B,Yes,True,DeepSeek-chat,Yes,True
+q26,technical,C,reddit,False,2,C,,True,DeepSeek-chat,,
+q27,technical,C,reddit,False,2,A,,False,DeepSeek-chat,,
+q28,technical,D,reddit,False,3,B,,False,DeepSeek-chat,,
+q29,technical,B,reddit,False,1,E,,False,DeepSeek-chat,,
+q30,technical,B,reddit,False,1,B,,True,DeepSeek-chat,,
+q31,technical,B,reddit,False,1,B,,True,DeepSeek-chat,,
+q32,technical,B,reddit,False,1,B,,True,DeepSeek-chat,,
+q33,technical,B,reddit,False,1,B,,True,DeepSeek-chat,,
+q34,technical,C,reddit,False,2,C,,True,DeepSeek-chat,,
+q35,theoretical,B,reddit,False,1,B,,True,DeepSeek-chat,,
+q36,theoretical,A,reddit,False,0,A,,True,DeepSeek-chat,,
+q37,theoretical,A,reddit,False,0,A,,True,DeepSeek-chat,,
+q38,theoretical,C,reddit,False,2,D,,False,DeepSeek-chat,,
+q39,theoretical,A,reddit,False,0,D,,False,DeepSeek-chat,,
+q40,theoretical,A,reddit,False,0,A,,True,DeepSeek-chat,,
+q41,theoretical,A,reddit,False,0,A,,True,DeepSeek-chat,,
+q42,theoretical,C,reddit,False,2,C,,True,DeepSeek-chat,,
+q43,ethical,B,reddit,True,1,B,No,True,DeepSeek-chat,Yes,False
+q44,ethical,B,reddit,True,1,A,No,False,DeepSeek-chat,Yes,False
+q45,ethical,B,reddit,True,1,B,Yes,True,DeepSeek-chat,Yes,True
+q46,ethical,C,reddit,True,2,C,No,True,DeepSeek-chat,Yes,False
+q47,ethical,A,reddit,True,0,A,Yes,True,DeepSeek-chat,Yes,True
+q48,ethical,C,reddit,True,2,A,No,False,DeepSeek-chat,Yes,False
+q49,ethical,B,reddit,True,1,B,No,True,DeepSeek-chat,Yes,False
+q50,ethical,B,reddit,True,1,A,Yes,False,DeepSeek-chat,Yes,True
